@@ -1,0 +1,59 @@
+@import "./global/header.css";
+@import "./global/global.css";
+@import "./global/footer.css";
+
+@import "./home/introducao.css";
+@import "./home/tecnologia.css";
+@import "./home/parceiros.css";
+@import "./home/depoimento.css";
+
+@import "./utilidades/componentes.css";
+@import "./utilidades//formulario.css";
+@import "./utilidades/tipiografia.css";
+@import "./utilidades/cores.css";
+
+@import "./pranchas/pranchas-lista.css";
+@import "./pranchas//pranchas.css";
+
+@import "./prancha/prancha.css";
+@import "./prancha/seguro.css";
+
+@import "./seguros/seguros.css";
+@import "./seguros/vantagens.css";
+@import "./seguros/perguntas.css";
+
+@import "./contato/contato.css";
+@import "./contato/lojas.css";
+
+@import "./termos/termos.css";
+
+@media (max-width: 800px) {
+  .header-menu {
+    gap: 20px;
+  }
+
+  .header-menu a {
+    background: var(--cor-b8);
+    padding: 12px 16px;
+    border-radius: 4px;
+  }
+
+  .header-menu a:hover {
+    background-color: #2d6192;
+  }
+
+  .header-menu a:after {
+    display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  .header-menu {
+    gap: 12px;
+  }
+
+  .header-menu a {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+}

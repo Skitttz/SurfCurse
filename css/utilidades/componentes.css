@@ -1,0 +1,116 @@
+.container {
+  max-width: 1200px;
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.botao {
+  display: inline-block;
+  padding: 16px 32px;
+  background: linear-gradient(#ffa216, #c4811e, #a84e0d);
+  border-radius: 4px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+  color: #06131f;
+  font: 600 1.125rem/1.35 "Poppins", sans-serif;
+  max-width: max-content;
+}
+
+.botao:hover {
+  background: linear-gradient(#ffa000, #c17113, #a14e00);
+}
+
+.botao.secundario {
+  background: var(--cor-b2);
+  color: var(--cor-b9);
+}
+
+.botao.secundario:hover {
+  background: var(--cor-b1);
+}
+
+.botao.ouro {
+  color: var(--cor-w);
+  background: linear-gradient(180deg, #ffa216 0%, #c4811e 0.01%, #a84e0d 100%);
+}
+
+.botao.ouro:hover {
+  background: linear-gradient(180deg, #ffa100 0%, #c48100 0.01%, #a84000 100%);
+}
+
+.titulo-bg {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: var(--cor-b10);
+}
+
+.titulo p {
+  margin-bottom: 4px;
+}
+
+.botao.seta {
+  display: flex;
+  align-items: center;
+}
+
+.botao.seta::after {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 10px;
+  margin-left: 12px;
+  background: url("../../arquivos-imagens/dec/seta.svg");
+  transition: transform 0.2;
+}
+
+.botao.seta:hover::after {
+  transform: translateX(4px);
+}
+
+@media (max-width: 800px) {
+  .titulo-bg {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .titulo p {
+    font-size: 1rem;
+    text-transform: lowercase;
+    font-weight: 400;
+  }
+}
+
+@media (max-width: 600px) {
+  .botao {
+    padding: 12px 16px;
+    font-size: 1rem;
+  }
+}
+
+.link {
+  display: inline-block;
+  color: var(--cor-y1);
+  font: 500 1.5rem/1.5 "Poppins", sans-serif;
+  text-transform: uppercase;
+}
+
+.link::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: currentColor;
+  transition: 0.3s;
+}
+
+.link:hover {
+  color: var(--cor-w);
+}
+
+.link:hover::after {
+  width: 100%;
+  height: 4px;
+}
