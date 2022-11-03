@@ -74,30 +74,67 @@
         </div>
       </section>
       <section class="contato-formulario" aria-label="Formulário">
-        <form class="form" action="./contato.html"></form>
-        <div>
-          <label for="Nome"></label>
-          <input type="text" id="nome" name="nome" placeholder="Seu nome">
-        </div>
-        <div>
-          <label for="telefone"></label>
-          <input type="text" id="telefone" name="telefone" placeholder="(21) 9999-9999">
-        </div>
-        <div>
-          <label for="email"></label>
-          <input type="email" id="email" name="email" placeholder="contato@email.com">
-        </div>
-        <div>
-          <label for="mensagem">Mensagem</label>
-          <textarea rows="5" id="mensagem" name="mensagem" placeholder="O que você precisa?"></textarea>
-        </div>
-        <button class="botao">Enviar mensagem</button>
-
+        <form class="form" action="./contato.html">
+          <div>
+            <label for="Nome"></label>
+            <input type="text" id="nome" name="nome" placeholder="Seu nome">
+          </div>
+          <div>
+            <label for="telefone"></label>
+            <input type="text" id="telefone" name="telefone" placeholder="(21) 9999-9999">
+          </div>
+          <div>
+            <label for="email"></label>
+            <input type="email" id="email" name="email" placeholder="contato@email.com">
+          </div>
+          <div class="col-2">
+            <label for="mensagem">Mensagem</label>
+            <textarea rows="5" id="mensagem" name="mensagem" placeholder="O que você precisa?"></textarea>
+          </div>
+          <button class="botao col-2">Enviar mensagem</button>
+        </form>
       </section>
     </div>
   </main>
 
+  <article class="lojas container">
+    <h2 class="font-1-xxl">lojas locais<span class="cor-y1">.</span></h2>
+    <div class="lojas-item">
+      <img src="./arquivos-imagens/mapas/cruz.jpg" alt="mapa marcando endereço Rua Logo Ali,25 - Maceió - MCZ">
+      <div class="lojas-conteudo">
+        <h3 class="font-1-xl">Maceió</h3>
+        <div class="lojas-dados font-2-s ">
+          <p>Rua Logo Ali, 25</p>
+          <p>Maceió - MCZ</p>
+        </div>
+        <div class="lojas-dados font-2-s">
+          <a href="mailto:mcz@surfcurse.com">mcz@surfcurse.com</a>
+          <a href="tel:+5582981229048">+55 82 98233-9048</a>
+        </div>
+        <p class="lojas-tempo font-1-s"> <img src=" ./arquivos-imagens/icones/contato/horario.svg" alt=""> 08h-18h de
+          seg á dom</p>
+      </div>
+    </div>
 
+    <div class="lojas-item">
+      <img src="./arquivos-imagens/mapas/aju.jpg" alt="mapa marcando endereço Rua Perto,45 - Aracaju - AJU">
+      <div class="lojas-conteudo">
+        <h3 class="font-1-xl">Aracaju</h3>
+        <div class="lojas-dados font-2-s cor">
+          <p>Rua Perto, 45</p>
+          <p>Aracaju - AJU </p>
+        </div>
+        <div class="lojas-dados font-2-s cor">
+          <a href="mailto:aju@surfcurse.com">aju@surfcurse.com</a>
+          <a href="tel:+5582981229048">+55 79 98132-9048</a>
+        </div>
+        <p class="lojas-tempo font-1-s"> <img src="./arquivos-imagens/icones/contato/horario.svg" alt=""> 08h-18h de seg
+          á dom</p>
+      </div>
+    </div>
+
+
+  </article>
 
   <footer class="footer-bg">
     <div class="footer container">
