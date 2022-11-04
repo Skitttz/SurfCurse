@@ -10,17 +10,18 @@
 .botao {
   display: inline-block;
   padding: 16px 32px;
-  background: linear-gradient(#ffa216, #c4811e, #a84e0d);
+  background: linear-gradient(180deg, #FFFFFF 0.01%, #9D9595 100%);
   border-radius: 4px;
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
   text-transform: uppercase;
   color: #06131f;
   font: 600 1.125rem/1.35 "Poppins", sans-serif;
   max-width: max-content;
+  border: none;
 }
 
 .botao:hover {
-  background: linear-gradient(#ffa000, #c17113, #a14e00);
+  background: linear-gradient(180deg, #FFFFFF 0.01%, #9D9595 50%);
 }
 
 .botao.secundario {
