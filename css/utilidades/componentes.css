@@ -8,6 +8,7 @@
 }
 
 .botao {
+  cursor: pointer;
   display: inline-block;
   padding: 16px 32px;
   background: linear-gradient(180deg, #FFFFFF 0.01%, #9D9595 100%);
@@ -21,6 +22,7 @@
 }
 
 .botao:hover {
+  transition: 0.3s;
   background: linear-gradient(180deg, #FFFFFF 0.01%, #9D9595 50%);
 }
 
@@ -47,6 +49,8 @@
   padding-bottom: 60px;
   background-color: var(--cor-b10);
 }
+
+.titulo {}
 
 .titulo p {
   margin-bottom: 4px;

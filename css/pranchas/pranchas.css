@@ -1,3 +1,13 @@
+.azulGradiente {
+  background: linear-gradient(180deg, #00A3FF 0%, #065095 100%);
+  transition: 0.3s;
+}
+
+.azulGradiente:hover {
+
+  background: linear-gradient(180deg, #00A3FF 20%, #065095 80%);
+}
+
 .pranchas-bg:nth-child(even) {
   background-color: var(--cor-b1);
 }
@@ -8,6 +18,7 @@
   gap: 40px;
   padding-top: 60px;
   padding-bottom: 60px;
+
 }
 
 

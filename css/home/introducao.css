@@ -1,5 +1,5 @@
 .introducao-bg {
-  background: #06131f;
+  background: var(--cor-b9);
   color: #fff;
   box-shadow: inset 0px -120px #fff;
 }

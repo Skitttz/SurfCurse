@@ -2,6 +2,17 @@
   background: linear-gradient(var(--cor-b10) 600px, var(--cor-w)0px)
 }
 
+.yellowGradiente {
+  color: var(--cor-w);
+  background: linear-gradient(180deg, #00A3FF 0%, #065095 100%);
+  transition: 2s;
+}
+
+.yellowGradiente:hover {
+  background: linear-gradient(180deg, #6A6B6B 0%, #1F1F1F 100%);
+
+}
+
 .contato {
   display: grid;
   grid-template-columns: 5fr 7fr;
@@ -18,11 +29,13 @@
 .contato-dados {
   border-radius: 5px 0 0 5px;
   background: var(--cor-b9);
+
 }
 
 .contato-formulario {
   border-radius: 0 5px 5px 0;
   background: var(--cor-w);
+
 }
 
 .contato-dados h2 {
