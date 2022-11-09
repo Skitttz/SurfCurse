@@ -16,6 +16,10 @@
   border-radius: 4px;
 }
 
+.gSec {
+  background-color: linear-gradient(180deg, #B3B2B2 0%, #A2C3E1 100%);
+}
+
 .seguro-conteudo {
   padding-top: 180px;
   padding-bottom: 180px;

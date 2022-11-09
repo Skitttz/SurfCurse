@@ -95,11 +95,6 @@
 
 .prancha-comprar a {
   grid-row: span 2;
-  background: linear-gradient(180deg, #FDCD23 0.01%, #C9A011 100%);
-}
-
-.prancha-comprar a:hover {
-  background: linear-gradient(180deg, #FDCD23 0.01%, #C9A001 60%);
 }
 
 @media (max-width: 800px) {

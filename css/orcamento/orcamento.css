@@ -177,6 +177,12 @@ label {
   display: grid;
 }
 
+.termosUnder {
+  text-decoration: black;
+  text-decoration: underline;
+  text-decoration-thickness: 0.1px;
+}
+
 @media (max-width: 1200px) {
 
   .orcamento-produto,

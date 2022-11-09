@@ -11,7 +11,7 @@
   cursor: pointer;
   display: inline-block;
   padding: 16px 32px;
-  background: linear-gradient(180deg, #FFFFFF 0.01%, #9D9595 100%);
+  background: linear-gradient(180deg, #FDCD23 0.01%, #C9A011 100%);
   border-radius: 4px;
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
   text-transform: uppercase;
@@ -21,18 +21,22 @@
   border: none;
 }
 
+.botao a {
+  color: var(--cor-w);
+}
+
 .botao:hover {
   transition: 0.3s;
-  background: linear-gradient(180deg, #FFFFFF 0.01%, #9D9595 50%);
+  background: linear-gradient(180deg, #FDCD23 0.01%, #C9A011 150%);
 }
 
 .botao.secundario {
-  background: var(--cor-b2);
+  background: linear-gradient(180deg, #CFCECC 0%, #75ACDE 100%);
   color: var(--cor-b9);
 }
 
 .botao.secundario:hover {
-  background: var(--cor-b1);
+  background: linear-gradient(180deg, #CFCECC 0%, #75ACDE 130%);
 }
 
 .botao.ouro {
@@ -49,8 +53,6 @@
   padding-bottom: 60px;
   background-color: var(--cor-b10);
 }
-
-.titulo {}
 
 .titulo p {
   margin-bottom: 4px;
