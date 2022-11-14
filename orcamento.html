@@ -9,14 +9,18 @@
   <title>Orçamento │ SurfCurse</title>~
   <meta name="description" content="Orçamento.">
 
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
   <link rel="preload" href="./css/style.css" as="style">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap"
+    rel="stylesheet">
 
 
 
+  <script>document.documentElement.classList.add('js');</script>
 </head>
 
 <body id="orcamento">
@@ -125,7 +129,7 @@
 
         <div class="col-2">
           <label for="email">Email</label>
-          <input type="email" id="email" name="email">
+          <input type="email" id="email" name="email" required>
         </div>
 
         <h2 class="font-1-xs cor-0 col-2"> entrega</h2>
@@ -161,7 +165,8 @@
         </div>
         <div>
 
-          <p class="font-1-x"> <input type="checkbox" id="termosCheck" name="termosCheck">Li e aceito <a class="termosUnder" href="./termos.html">os termos e
+          <p class="font-1-x"> <input type="checkbox" id="termosCheck" name="termosCheck" required>Li e aceito <a
+              class="termosUnder" href="./termos.html">os termos e
               condições.</a></p>
         </div>
 
@@ -217,6 +222,7 @@
   </footer>
 
   <script src="./js/script.js"></script>
+  <script src="./js/formulario.js"></script>
 </body>
 
 </html>

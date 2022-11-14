@@ -44,3 +44,31 @@ function eventPerguntas(pergunta) {
 }
 
 perguntas.forEach(eventPerguntas);
+
+// Galeria de imagens
+
+const galeria = document.querySelectorAll(".prancha-imagens img");
+const galeriaContainer = document.querySelector(".prancha-imagens");
+
+function trocarImagem(event) {
+  const img = event.currentTarget;
+  const media = matchMedia("(min-width: 950px)").matches;
+  if (media) {
+    galeriaContainer.prepend(img);
+  }
+}
+
+function eventosGaleria(imagem) {
+  imagem.addEventListener("click", trocarImagem);
+}
+
+galeria.forEach(eventosGaleria);
+
+// Animacao
+if (window.SimpleAnime) {
+  new SimpleAnime();
+}
+
+if (window.ClipboardJS) {
+  new ClipboardJS(".introducao-conteudo p");
+}

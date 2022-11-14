@@ -10,14 +10,18 @@
   <title>Contato │ SurfCurse</title>
   <meta name="description" content="Termos e Condições.">
 
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
   <link rel="preload" href="./css/style.css" as="style">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap"
+    rel="stylesheet">
 
 
 
+  <script>document.documentElement.classList.add('js');</script>
 </head>
 
 <body id="contato">
@@ -85,13 +89,13 @@
           </div>
           <div>
             <label for="email"></label>
-            <input type="email" id="email" name="email" placeholder="contato@email.com">
+            <input type="email" id="email" name="email" placeholder="contato@email.com" required>
           </div>
           <div class="col-2">
             <label for="mensagem">Mensagem</label>
             <textarea rows="5" id="mensagem" name="mensagem" placeholder="O que você precisa?"></textarea>
           </div>
-          <button class="botao yellowGradiente col-2">Enviar mensagem</button>
+          <button class="botao gradienteContato col-2">Enviar mensagem</button>
         </form>
       </section>
     </div>
@@ -178,6 +182,7 @@
   </footer>
 
   <script src="./js/script.js"></script>
+  <script src="./js/formulario.js"></script>
 </body>
 
 </html>

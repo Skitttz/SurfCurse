@@ -7,9 +7,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>SurfCurse - Pranchas Personalizadas</title>
+  <title>SurfCurse │ Pranchas Personalizadas</title>
   <meta name="description" content="Quando mergulhamos na Surf Curse queriamos apenas um produto que gostaríamos de utilizar. Somos apaixonados pelo Surf e por visuais diferentes.">
 
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
   <link rel="preload" href="./css/style.css" as="style">
   <link rel="stylesheet" href="./css/style.css">
 
@@ -19,7 +20,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 
 
-
+  <script>document.documentElement.classList.add('js');</script>
 </head>
 
 <body>
@@ -42,16 +43,21 @@
   </header>
 
   <main class="introducao-bg">
-
     <div class="introducao container">
       <div class="introducao-conteudo">
-        <h1 class="font-1-xxl">Pranchas de Surf personalizadas para <span class="color-laranja">você.</span></h1>
-        <p class="font-2-l">Quando mergulhamos na Surf Curse queriamos apenas um produto que gostaríamos de utilizar.
+        <h1 class="font-1-xxl fadeInDown" data-anime="200">Pranchas de Surf personalizadas para <span class="color-laranja fadeInDown">você.</span></h1>
+        <p class="font-2-l fadeInDown" data-anime="400" data-clipboard-text="Quando mergulhamos na Surf Curse queriamos apenas um produto que gostaríamos de utilizar.
+        Somos apaixonados pelo Surf e por visuais diferentes.">Quando mergulhamos na Surf Curse queriamos apenas um produto que gostaríamos de utilizar.
           Somos apaixonados pelo Surf e por visuais diferentes.</p>
-        <a class="botao" href="./pranchas.html">Selecione a sua </a>
+
+        <a class="botao" data-anime="600" href="./pranchas.html">Selecione a sua </a>
+
+
+
+
       </div>
 
-      <picture><img src="arquivos-imagens/gerais/img-intro-ssW.webp" width="1260" height="1680" alt="Prancha e Surfista">
+      <picture class="fadeInDown" data-anime="800"><img src="arquivos-imagens/gerais/img-intro-ssW.webp" width="1260" height="1680" alt="Prancha e Surfista">
       </picture>
 
 
@@ -231,6 +237,7 @@
     </div>
   </footer>
 
+  <script src="./js/plugin/simple-anime.js"></script>
   <script src="./js/script.js"></script>
 </body>
 

@@ -11,14 +11,14 @@
   cursor: pointer;
   display: inline-block;
   padding: 16px 32px;
-  background: linear-gradient(180deg, #FDCD23 0.01%, #C9A011 100%);
+  background: linear-gradient(180deg, #265870 0%, #2f8ed3 50%, #3f92ce 100%);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
   border-radius: 4px;
-  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
   text-transform: uppercase;
-  color: #06131f;
+  color: var(--cor-w);
   font: 600 1.125rem/1.35 "Poppins", sans-serif;
-  max-width: max-content;
   border: none;
+  width: max-content;
 }
 
 .botao a {
@@ -26,17 +26,17 @@
 }
 
 .botao:hover {
-  transition: 0.3s;
-  background: linear-gradient(180deg, #FDCD23 0.01%, #C9A011 150%);
+  transition: 0.5s;
+  background: linear-gradient(180deg, #265870 0%, #2f8ed3 50%, #3f92ce 50%);
 }
 
 .botao.secundario {
-  background: linear-gradient(180deg, #CFCECC 0%, #75ACDE 100%);
+  background: linear-gradient(180deg, #cfcecc 0%, #75acde 100%);
   color: var(--cor-b9);
 }
 
 .botao.secundario:hover {
-  background: linear-gradient(180deg, #CFCECC 0%, #75ACDE 130%);
+  background: linear-gradient(180deg, #cfcecc 0%, #75acde 130%);
 }
 
 .botao.ouro {

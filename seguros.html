@@ -6,9 +6,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Termos e Condições │ SurfCurse</title>
-  <meta name="description" content="Termos e Condições.">
+  <title>Seguros │ SurfCurse</title>
+  <meta name="description" content="Seguros.">
 
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
   <link rel="preload" href="./css/style.css" as="style">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,6 +18,7 @@
 
 
 
+  <script>document.documentElement.classList.add('js');</script>
 </head>
 
 <body id="seguros">
@@ -50,7 +52,7 @@
 
     <div class="seguros container">
       <h2 class="font-1-xxl">seguros<span class="cor-y1">.</span></h2>
-      <div class="seguros-item">
+      <div class="seguros-item fadeInLeft" data-anime="400">
         <h3 class="font-1-xl cor-b3">PRATA</h3>
         <span class="font-1-xl cor-0">R$ 199 <span class="font-1-xs cor-c">mensal </span></span>
         <ul class="font-2-m cor-0">
@@ -64,7 +66,7 @@
       </div>
 
 
-      <div class="seguros-item">
+      <div class="seguros-item fadeInRight" data-anime="600">
         <h3 class="font-1-xl cor-y1">OURO</h3>
         <span class="font-1-xl cor-0">R$ 299 <span class="font-1-xs cor-c">mensal </span></span>
         <ul class="font-2-m cor-0">
@@ -212,7 +214,8 @@
       <p class="footer-copy font-2-m cor-b2">Surf Curse © Alguns direitos reservados.</p>
     </div>
   </footer>
-
+  <script src="./js/plugin/clipboard.min.js"></script>
+  <script src="./js/plugin/simple-anime.js"></script>
   <script src="./js/script.js"></script>
 </body>
 

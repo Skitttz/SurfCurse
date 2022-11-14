@@ -1,41 +1,36 @@
 #contato {
-  background: linear-gradient(var(--cor-b10) 600px, var(--cor-w)0px)
+  background: linear-gradient(var(--cor-b10) 600px, var(--cor-w) 0px);
 }
 
-.yellowGradiente {
+.gradienteContato {
   color: var(--cor-w);
-  background: linear-gradient(180deg, #00A3FF 0%, #065095 100%);
+  background: linear-gradient(180deg, #00a3ff 0%, #065095 100%);
   transition: 2s;
 }
 
-.yellowGradiente:hover {
-  background: linear-gradient(180deg, #6A6B6B 0%, #1F1F1F 100%);
-
+.gradienteContato:hover {
+  background: linear-gradient(180deg, #00a3ff 0%, #065095 70%);
 }
 
 .contato {
   display: grid;
   grid-template-columns: 5fr 7fr;
-
 }
 
 .contato-dados,
 .contato-formulario {
   padding: 60px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-
 }
 
 .contato-dados {
   border-radius: 5px 0 0 5px;
   background: var(--cor-b9);
-
 }
 
 .contato-formulario {
   border-radius: 0 5px 5px 0;
   background: var(--cor-w);
-
 }
 
 .contato-dados h2 {
@@ -45,7 +40,8 @@
 .contato-endereco {
   margin-bottom: 32px;
   padding-left: 28px;
-  background: url("../../arquivos-imagens/icones/contato/local.svg") no-repeat 0 2px;
+  background: url("../../arquivos-imagens/icones/contato/local.svg") no-repeat 0
+    2px;
 }
 
 .contato-endereco p {
@@ -64,18 +60,20 @@
 }
 
 .contato-meios a:first-child {
-  background: url("../../arquivos-imagens/icones/contato/email.svg") no-repeat 0 2px;
+  background: url("../../arquivos-imagens/icones/contato/email.svg") no-repeat 0
+    2px;
 }
 
 .contato-meios a:nth-child(2) {
-  background: url("../../arquivos-imagens/icones/contato/email.svg") no-repeat 0 2px;
+  background: url("../../arquivos-imagens/icones/contato/email.svg") no-repeat 0
+    2px;
   margin-bottom: 32px;
 }
 
 .contato-meios a:nth-child(3) {
-  background: url("../../arquivos-imagens/icones/contato/telefone.svg") no-repeat 0 2px;
+  background: url("../../arquivos-imagens/icones/contato/telefone.svg")
+    no-repeat 0 2px;
   margin-bottom: 60px;
-
 }
 
 .contato-redes {
@@ -84,7 +82,7 @@
   padding-left: 28px;
 }
 
-@media(max-width: 800px) {
+@media (max-width: 800px) {
   .contato {
     grid-template-columns: 1fr;
   }
@@ -109,6 +107,5 @@
 
   .contato-redes {
     margin-bottom: 12px;
-
   }
 }
