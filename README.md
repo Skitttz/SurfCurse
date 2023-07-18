@@ -17,18 +17,16 @@ O projeto de surf personɑlizɑdɑs foi criɑdo ɑ pɑrtir do curso dɑ Origɑmi
 
 ## Desafios 🎯
 
-Algum dos Desafios enfrentados na criação do projeto:
+Algum dos Desafios enfrentados na criação do projeto
 * Realizar a esquematização do projeto de forma organizada, passando por cada etapa desde o planejamento até a sua concepção;
 * Fundamentar o projeto mais próximo da realidade para que transmitisse a atmosfera e a essência do surf de forma autêntica;  
 * Garantir responsividade para que ampla variedade de dispositivos pudesse acessá-lo com facilidade;   
 * Arquitetar a página de listagem de produtos de forma inovadora. 
 
 ## Tecnologias 🖥️
-<div>
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" img>
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" img>
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" img>
-</div>
+
+O projeto foi escrito em **HTML** e **CSS** para a criação da estrutura e estilização do site. No entanto, para aprimorar a experiência de navegação e proporcionar recursos interativos, foram utilizados plugins de **JavaScript**.
+
 
 ## Como acessar 🚪🚶
 
