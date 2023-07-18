@@ -15,11 +15,7 @@
 O projeto de surf personɑlizɑdɑs foi criɑdo ɑ pɑrtir do curso dɑ Origɑmid, com o temɑ proprio do criɑdor do projeto,tem como ideiɑ fornecer ɑos surfistɑs umɑ experiênciɑ online exclusivɑ, onde eles podem encontrɑr e personɑlizɑr suɑs prɑnchɑs ideɑis. 
 
 ## Tecnologias 🖥️
-<div>
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" img>
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" img>
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" img>
-</div>
+O projeto foi escrito em **HTML** e **CSS** para a criação da estrutura e estilização do site. No entanto, para aprimorar a experiência de navegação e proporcionar recursos interativos, foram utilizados plugins de **JavaScript**.
 
 ## Como acessar 🚪🚶
 
