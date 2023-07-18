@@ -34,8 +34,8 @@ O projeto foi hospedado no GitHub Pages, ao clicar no link <a href="https://skit
 
 ## Wireframe e Prototipo 🎨
 
- * Wiframe → <a href="https://www.figma.com/file/U7k9spvXtoazHx82wNZOop/site-surf-prototipy?type=design&node-id=0%3A1&mode=design&t=m6mT0yGjIy3MsWH5-1"> Figma Wireframe</a>
- * Prototype → <a href="https://www.figma.com/file/bEPjS1LpBmeXoNIMEHqnTc/surf-wireframe?type=design&node-id=0%3A1&mode=design&t=62DaiCB7yiRUFNfv-1"> Figma Prototype</a>
+ * Wiframe → <a href="https://www.figma.com/file/bEPjS1LpBmeXoNIMEHqnTc/surf-wireframe?type=design&node-id=0%3A1&mode=design&t=62DaiCB7yiRUFNfv-1"> Figma Wireframe</a>
+ * Prototype → <a href="https://www.figma.com/file/U7k9spvXtoazHx82wNZOop/site-surf-prototipy?type=design&node-id=0%3A1&mode=design&t=m6mT0yGjIy3MsWH5-1"> Figma Prototype</a>
  
 
 
