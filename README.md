@@ -32,7 +32,7 @@ Algum dos Desafios enfrentados na criação do projeto:
 
 ## Como acessar 🚪🚶
 
-O projeto foi hospedado no GitHub Pages, basta seguir o link clicando em <a href="https://skitttz.github.io/SurfCurse/"> skitttz.github.io/SurfCurse/</a> e voce será redirecionado para uma previa.
+O projeto foi hospedado no GitHub Pages, Ao clicar no link <a href="https://skitttz.github.io/SurfCurse/"> skitttz.github.io/SurfCurse/</a> você será redirecionado para uma previa nessa mesma **aba**.
 
 ## Wireframe e Prototipo 🎨
 
