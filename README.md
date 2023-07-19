@@ -11,6 +11,10 @@
   
 </p>
 
+<div align="center">
+  <img src="https://github.com/Skitttz/SurfCurse/assets/94083688/1f2a90a6-ca14-4ce1-9fb9-f6188e80e2b3" width="80%" />
+</div>
+
 ## Contexto 📝
 
 O projeto de surf personɑlizɑdɑs foi criɑdo ɑ pɑrtir do curso dɑ Origɑmid, com o temɑ proprio do criɑdor do projeto,tem como ideiɑ fornecer ɑos surfistɑs umɑ experiênciɑ online exclusivɑ, onde eles podem encontrɑr e personɑlizɑr suɑs prɑnchɑs ideɑis.
