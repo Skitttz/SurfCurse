@@ -17,7 +17,7 @@
 
 ## Contexto 📝
 
-O projeto de surf personɑlizɑdɑs foi criɑdo ɑ pɑrtir do curso dɑ Origɑmid, com o temɑ proprio do criɑdor do projeto,tem como ideiɑ fornecer ɑos surfistɑs umɑ experiênciɑ online exclusivɑ, onde eles podem encontrɑr e personɑlizɑr suɑs prɑnchɑs ideɑis.
+O projeto de pranchas de surf personɑlizɑdɑs foi criɑdo ɑ pɑrtir dos conhecimentos do curso dɑ Origɑmid, a ideiɑ é fornecer ɑos surfistɑs umɑ experiênciɑ online exclusivɑ, onde eles podem encontrɑr e personɑlizɑr suɑs prɑnchɑs ideɑis.
 
 ## Desafios 🎯
 
