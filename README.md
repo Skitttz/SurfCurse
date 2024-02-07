@@ -23,10 +23,10 @@ O projeto de pranchas de surf personɑlizɑdɑs foi criɑdo ɑ pɑrtir dos conhe
 ## Desafios 🎯
 
 Algum dos Desafios enfrentados na criação do projeto:
-* Realizar a esquematização do projeto de forma organizada, passando por cada etapa desde o planejamento até a sua concepção;
-* Fundamentar o projeto mais próximo da realidade para que transmitisse a atmosfera e a essência do surf de forma autêntica;  
-* Garantir responsividade para que ampla variedade de dispositivos pudesse acessá-lo com facilidade;   
-* Arquitetar a página de listagem de produtos de forma inovadora. 
+- [x] Realizar a esquematização do projeto de forma organizada, passando por cada etapa desde o planejamento até a sua concepção;
+- [x] Fundamentar o projeto mais próximo da realidade para que transmitisse a atmosfera e a essência do surf de forma autêntica;  
+- [x] Garantir responsividade para que ampla variedade de dispositivos pudesse acessá-lo com facilidade;   
+- [x] Arquitetar a página de listagem de produtos de forma inovadora. 
 
 ## Tecnologias 🖥️
 
