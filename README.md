@@ -1,5 +1,6 @@
 <h1 align="center">
-  <img src="https://github.com/Skitttz/SurfCurse/assets/94083688/470c069a-f33a-434b-98fb-f9b9f7420258" width="50%" />
+  <img src="https://svgshare.com/i/12p6.svg" width="50%" /> 
+
 </h1>
 
 <p align="center">
