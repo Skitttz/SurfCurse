@@ -1,7 +1,4 @@
-<h1 align="center">
-  <img src="https://svgshare.com/i/12p6.svg" width="50%" /> 
 
-</h1>
 
 <p align="center">
   <a href="#contexto-">Contexto</a>&nbsp;&nbsp;&nbsp;┋&nbsp;&nbsp;&nbsp;
